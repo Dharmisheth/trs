@@ -189,7 +189,7 @@ import Offlinepage from "../pages/AuthenticationInner/Errors/Offlinepage";
 import Login from "../pages/Authentication/Login";
 import ForgetPasswordPage from "../pages/Authentication/ForgetPassword";
 import Logout from "../pages/Authentication/Logout";
-import Register from "../pages/Authentication/Register";
+// import Register from "../pages/Authentication/Register";
 
 //Charts
 import LineCharts from "../pages/Charts/ApexCharts/LineCharts";
@@ -459,7 +459,7 @@ const publicRoutes = [
   { path: "/logout", component: <Logout /> },
   { path: "/login", component: <Login /> },
   { path: "/forgot-password", component: <ForgetPasswordPage /> },
-  { path: "/register", component: <Register /> },
+  // { path: "/register", component: <Register /> },
 
   //AuthenticationInner pages
   { path: "/auth-signin-basic", component: <BasicSignIn /> },
